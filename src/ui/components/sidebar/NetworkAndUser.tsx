@@ -9,8 +9,8 @@ import { classes } from 'ui/util';
 
 const options = [
   {
-    label: 'Sapphire',
-    value: RPC.SAPPHIRE,
+    label: 'Emerald',
+    value: RPC.EMERALD,
   },
   {
     label: 'Local Node',
@@ -35,7 +35,7 @@ export function NetworkAndUser() {
           navigate(`/?rpc=${e}`);
         }}
         options={options}
-        value={options.find(o => o.value === endpoint)?.value || RPC.SAPPHIRE}
+        value={options.find(o => o.value === endpoint)?.value || RPC.EMERALD}
       />
     </div>
   );
