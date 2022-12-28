@@ -13,6 +13,10 @@ const options = [
     value: RPC.DEV,
   },
   {
+    label: 'LRC',
+    value: RPC.LRC,
+  },
+  {
     label: 'Local Node',
     value: RPC.LOCAL,
   },

@@ -10,6 +10,7 @@ export enum RPC {
   SHIBUYA = 'wss://rpc.shibuya.astar.network',
   SHIDEN = 'wss://rpc.shiden.astar.network',
   DEV = 'wss://node-1.substrate.authnetwork.dev',
+  LRC = 'substrate.lrc1.authnetwork.dev',
 }
 export const DEFAULT_DECIMALS = 12;
 
